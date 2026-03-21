@@ -1,0 +1,17 @@
+/*seletor de tag*/
+p{
+    color: purple;
+
+}
+
+#Teste {
+    background-color: purple;
+    color: white;
+}
+
+/*seletor de classe*/
+
+.patrick {
+    font-family:Arial;
+    font-size:16pt;
+}
