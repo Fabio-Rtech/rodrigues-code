@@ -1,0 +1,36 @@
+body{
+    background: #802059;
+}
+#primeiro{
+    background: aqua;
+    color: #0351c3;
+}
+.paragrafo{
+    background: aquamarine;
+    color: red;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+
+}
+table {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    text-align: right;
+}
+
+th {
+    background-color: purple;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: coral;
+}

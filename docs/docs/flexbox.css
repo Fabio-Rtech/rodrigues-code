@@ -1,0 +1,22 @@
+body {
+    background-color: lightyellow;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* flex-start, flex-end, center, space-between, space-around, space-evelny. */
+    background: aquamarine;
+    align-items: flex-start; /* flex-start, flex-end, center, strech, baseline. */
+    flex-wrap: nowrap; /* nowrap, wrap, wrap-reverse */
+    gap: 50px; /* ambos eixos */
+    row-gap: 5px; /* vertical */
+    column-gap: 5px; /* horizontal */
+    height: 300px;
+}
+.item {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    background-color: azure;
+}
