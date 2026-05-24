@@ -1,0 +1,53 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formúlario de inscrição</title>
+    <link rel="stylesheet" href="styles.css">
+    <style> /* Fonte */
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+        body {
+            font-family: "Orbitron", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            color: wheat;
+        }
+        h1{
+            font-family: "Orbitron", sans-serif;
+            font-size: 24px;
+            color: wheat;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container"> <!--<conteainer começa aqui>-->
+        <div class = "item">
+                 <h1>Login</h1>
+            <div class="input-box"> <!--<campo do usuario>-->
+                 <label>
+                    <input type="email" placeholder="USUARIO">
+                 </label>
+             </div>
+            <!--<****************************************>-->
+             <div class="input-box"> <!--<campo da senha>-->
+                <label>
+                    <input type="password" placeholder="SENHA">
+                </label>
+            </div>
+            <!--<****************************************>-->
+                <button type="submit" class="btn"><strong>LOGAR</strong></button> <!--<botão>-->
+        </div>
+        <div class="remember-forgot">
+            <label> <input type="checkbox"> LEMBRAR MINHA SENHA</label> <!--<caixa de marcar>-->
+                <a href="#">ESQUECI A MINHA SENHA</a>
+        </div>
+                <div class="register-link">
+                    <p>NÃO TEM UMA CONTA? <a href="#">CADASTRE-SE</a></p> <!--<Link para criar cadastro>-->
+                </div>
+        </div>
+
+</body>
+</html>
