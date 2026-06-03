@@ -1,7 +1,7 @@
 # 👋 Olá, eu sou o Fabio!
-*💼 Técnico em Telecom
-*📍 Santa Maria, Rio Grande do Sul
-*🎓 Estudando Técnico em Informática para Internet
+* 💼 Técnico em Telecom
+* 📍 Santa Maria, Rio Grande do Sul
+* 🎓 Estudando Técnico em Informática para Internet
 
 ---
 
