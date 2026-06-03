@@ -25,7 +25,7 @@
 🏆 GitHub Profile Trophy 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=SEU_USUARIO&theme=onedark&no-frame=true&row=1)]
-(https://github.com/ryo-ma/github-profile-trophy)
+(https://github.com/ryo-ma/github-profile-trophy).
 * 🏅 Commits
 * ⭐ Stars
 * 👥 Followers
