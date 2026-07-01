@@ -1,0 +1,55 @@
+
+* { /* Formatação Padrão */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; /* rolagem suave ao clicar nos links do menu */
+    height: 500vh; /* X Vezes o tamanho da tela */
+}
+#logo { /* id = logo */
+    width: 200px;
+    height: auto;
+}
+
+.container { /* Container do Menu */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex{ /* Alinhar os elementos */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribui os elementos nas extremidades*/
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header ul{ /* Manipulação da Lista */
+    list-style-type: none;
+}
+
+header ul li{ /* Itens dentro da lista */
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #f1e9d8;
+    text-decoration: none;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url('img/Barbearia-Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
