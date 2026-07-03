@@ -1,9 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Old School Flow</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Pacifico&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap');
+        .hero__eyebrow{
+            color: #d4a94f;
+            font-size: 30px;
+            margin-top: 30px;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+       h1{
+           font-family: "Crimson Text", serif;
+           font-weight: 700;
+           font-style: normal;
+       }
+
+        .hero__title{
+            color: #1a1a1a;
+            font-size: 64px;
+            margin: 5px;
+            font-family: "Crimson Text", serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        p{
+            color: #2a2a2a;
+            font-size: 18px;
+            font-family: "Ysabeau", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+    </style>
     <meta name="description" content="Old School Flow - Estilo, atitude anos 2000. Corte, barba e visagismo - Santa Maria, RS.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,12 +62,12 @@
               <ul>
                   <li><a href="index.html">Inicio</a></li>
                   <li><a href="index.html">Sobre</a></li>
-                  <li><a href="index.html">Serviços</a></li>
+                  <li><a href="#servicos">Serviços</a></li>
                   <li><a href="index.html">Galeria</a></li>
               </ul>
           </nav>
 
-              <a href="#" class="btn-Contato">Contato</a>
+              <a href="#contato" class="btn-Contato">Contato</a>
 
       </div> <!--Final Flex-->
 
@@ -39,17 +78,166 @@
 
     </section>
 
-  <div class="faixa-divisora"></div>
+  <div class="faixa-divisora"></div> <!--Divisão entre secções-->
 
-  <div class="hero__content">
+  <div class="hero__slogan">
       <p class="hero__eyebrow">Desde os anos 2000</p>
       <h1 class="hero__title">Respeito. Atitude.<br>Estilo.</h1>
-      <p class="hero__subtitle">A barbearia que veio direto da rua pra sua cadeira — old school never dies.</p>
+      <p class="hero__subtitle">O verdadeiro flow da barbearia raiz. — old school never dies.</p>
       <div class="hero__actions">
           <a href="#contato" class="btn-Contato">Contato</a>
-          <a href="#servicos" class="servicos">Ver serviços</a>
+          <a href="#servicos" class="btn-servicos">Ver serviços</a>
       </div>
   </div>
+
+  <!--
+  *********************************************************************************
+  ====================================== SOBRE ===================================
+  *********************************************************************************
+  -->
+
+<section class="sobre" id="sobre">
+    <div class="container sobre__grid">
+
+        <div class="sobre__texto">
+        <p class="eyebrow">Nossa história</p>
+
+        <h2 class="title">Raízes nos anos 2000,<br>flow que não passa de moda.</h2>
+        <p>
+              A Old School Flow nasceu da paixão por uma barbearia que respeita o ritual:
+              navalha, toalha quente e conversa boa. Resgatamos a cultura clássica do barbeiro
+              e colocamos o nosso próprio flow — irreverente, old school e atento a cada detalhe.
+        </p>
+
+        <p>
+          Cada corte é pensado pro seu rosto, seu estilo e sua história. Aqui, cliente
+          não é número — é parceiro de cadeira.
+        </p>
+
+    </div>
+
+        <!--
+ *********************************************************************************
+ ====================================== Equipe ===================================
+ *********************************************************************************
+ -->
+
+    <div class="sobre__imagem">
+      <!-- Imagem da Equipe  -->
+      <img src="img/Fulano-Equipe.PNG" alt="Fulano" loading="lazy">
+        <img src="img/Ciclano-Equipe.PNG" alt="Ciclano" loading="lazy">
+        <img src="img/Fulana-Equipe.png" alt="Fulana" loading="lazy">
+        <img src="img/Beltrano-Equipe.png" alt="Beltrano" loading="lazy">
+    </div>
+
+  </div>
+</section>
+
+  <!--
+   *********************************************************************************
+   ==================================== SERVIÇOS ===================================
+   *********************************************************************************
+   -->
+
+  <section class="servicos" id="servicos">
+      <div class="moldura">
+      <div class="container">
+          <p class="eyebrow eyebrow--center">O que fazemos</p>
+          <h2 class="title title--center">Serviços</h2>
+
+          <div class="servicos__grid">
+              <article class="card-servico">
+                 <!-- <img src="img/Cortes/Corte Old School.png" alt="servico-1" loading="lazy"> -->
+                  <h3>Corte Old School</h3>
+                  <p>Tesoura e máquina, acabamento na navalha.</p>
+                  <span class="card-servico__preco">R$ 45</span>
+              </article>
+
+              <article class="card-servico">
+                  <h3>Barba Clássica</h3>
+                  <p>Toalha quente, navalha e produtos premium.</p>
+                  <span class="card-servico__preco">R$ 35</span>
+              </article>
+
+              <article class="card-servico">
+                  <h3>Combo Flow</h3>
+                  <p>Corte + barba completo, do jeito que tem que ser.</p>
+                  <span class="card-servico__preco">R$ 70</span>
+              </article>
+
+              <article class="card-servico">
+                  <h3>Sobrancelha</h3>
+                  <p>Acabamento na navalha para um visual completo.</p>
+                  <span class="card-servico__preco">R$ 20</span>
+              </article>
+          </div>
+      </div>
+     </div>
+  </section>
+
+  <!--
+  *********************************************************************************
+  ==================================== Galeria ===================================
+  *********************************************************************************
+  -->
+
+  <section class="galeria" id="galeria">
+      <div class="container">
+          <p class="eyebrow eyebrow--center">Resultados</p>
+          <h2 class="title title--center">Galeria</h2>
+
+          <div class="galeria__grid">
+              <img src="img/galeria1.jpg" alt="Corte realizado na barbearia" loading="lazy">
+              <img src="img/galeria2.jpg" alt="Barba realizada na barbearia" loading="lazy">
+              <img src="img/galeria3.jpg" alt="Ambiente da barbearia" loading="lazy">
+              <img src="img/galeria4.jpg" alt="Corte realizado na barbearia" loading="lazy">
+              <img src="img/galeria5.jpg" alt="Detalhe do acabamento" loading="lazy">
+              <img src="img/galeria6.jpg" alt="Equipe da barbearia" loading="lazy">
+          </div>
+      </div>
+  </section>
+
+  <!--
+  *********************************************************************************
+  ================================== LOCALIZAÇÃO ==================================
+  *********************************************************************************
+  -->
+  <section class="localizacao" id="localizacao">
+      <div class="container localizacao__grid">
+          <div class="localizacao__info">
+              <p class="eyebrow">Onde estamos</p>
+              <h2 class="title">Localização</h2>
+              <p><strong>Endereço:</strong> Rua Exemplo, 123 — Centro, Santa Maria/RS</p>
+              <p><strong>Horário:</strong> Seg a Sex, 09h às 20h · Sáb, 09h às 18h</p>
+              <p><strong>Telefone/WhatsApp:</strong> (55) 99999-9999</p>
+              <a href="https://wa.me/5555999999999" class="btn btn--outline" target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+          <div class="localizacao__mapa">
+              <!-- Trocar o endereço no src abaixo pelo endereço real (Google Maps > Compartilhar > Incorporar mapa) -->
+              <iframe
+                      title="Mapa da localização da barbearia"
+                      src="https://www.google.com/maps?q=Santa%20Maria%20RS&output=embed"
+                      width="100%" height="350" style="border:0;" loading="lazy"></iframe>
+          </div>
+      </div>
+  </section>
+
+  <!--
+  *********************************************************************************
+  ===================================== RODAPÉ ====================================
+  *********************************************************************************
+  -->
+  <footer class="footer">
+      <div class="container footer__grid">
+          <img src="img/Logo.png" alt="logo" class="footer__logo">
+          <div class="footer__social">
+              <a href="#" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+              <a href="https://wa.me/5555999999999" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+          </div>
+          <p class="footer__copy">&copy; <span id="ano-atual"></span> Old School Flow Barber Shop. Todos os direitos reservados.</p>
+      </div>
+  </footer>
 
   <script src="menu.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
